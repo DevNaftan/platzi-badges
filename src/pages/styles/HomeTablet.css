@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+  .Home__container {
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+
+  .Home__info-container {
+    margin-right: 50px;
+  }
+
+  .Home__logo {
+    width: 350px;
+    height: 251px;
+  }
+}

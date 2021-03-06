@@ -1,0 +1,35 @@
+.NotFound {
+  display: flex;
+  min-height: calc(100% - 57px);
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #15210a;
+}
+
+.NotFound__img {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 312px;
+  background-image: url('../../assets/images/stars-bg.svg');
+}
+
+.NotFound__img img {
+  width: 340px;
+}
+
+.NotFound__info {
+  text-align: center;
+  color: white;
+}
+
+.NotFound__info h1 {
+  margin-bottom: 5px;
+  font-size: 4.3rem;
+}
+
+.NotFound__info p {
+  font-size: 1.8rem;
+}

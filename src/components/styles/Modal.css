@@ -1,0 +1,32 @@
+.Modal {
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Modal__container {
+  padding: 40px;
+  position: relative;
+  background-color: white;
+}
+
+.Modal__close-btn {
+  border: none;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 700;
+  outline: none;
+}
+
+.Modal__close-btn:hover {
+  cursor: pointer;
+}

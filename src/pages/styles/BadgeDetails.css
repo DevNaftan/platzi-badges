@@ -1,0 +1,42 @@
+.BadgeDetails__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.BadgeDetails__controls {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.BadgeDetails__controls h3 {
+  margin-bottom: 15px;
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.BadgeDetails__controls div {
+  display: flex;
+  width: 175px;
+  justify-content: space-between;
+}
+
+.BadgeDetails__controls a {
+  text-align: center;
+}
+
+.user-name--BadgeDetails {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+}
+
+.BadgeDetails .Hero--Badges .Hero__container {
+  grid-template: 0.65fr 0.35fr / 1fr;
+}

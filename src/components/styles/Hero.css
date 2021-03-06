@@ -1,0 +1,23 @@
+.Hero {
+  padding: 10px;
+  background: url('../../assets/images/stars-bg.svg') center, #17181f;
+  background-size: cover;
+}
+
+.Hero__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.platziconf-logo {
+  width: 262px;
+  height: 151px;
+  background: url('../../assets/images/platziconf-logo.svg') no-repeat center;
+  background-size: contain;
+}

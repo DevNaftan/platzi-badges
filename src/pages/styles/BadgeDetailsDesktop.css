@@ -1,0 +1,9 @@
+@media only screen and (min-width: 1024px) {
+  .BadgeDetails .Hero--Badges .Hero__container {
+    grid-template: 1fr / repeat(2, 1fr);
+  }
+
+  .user-name--BadgeDetails {
+    font-size: 4.5rem;
+  }
+}

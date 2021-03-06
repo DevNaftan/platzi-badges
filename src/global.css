@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.section-container {
+  height: calc(100vh - 109px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-img {
+  width: 100px;
+  margin-bottom: 7.5px;
+}
+
+.user-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  text-align: center;
+  color: #24353b;
+}
+
+.user-sn {
+  display: flex;
+  align-items: center;
+}
+
+.user-sn svg {
+  font-size: 1.6rem;
+  color: #00acee;
+}
+
+.tw-user {
+  margin: 0 5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #66a2ce;
+}
+
+.user-info {
+  padding: 0 30px 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #5c676e;
+}
+
+.country-flag {
+  width: 15px;
+  height: 15px;
+  background: url('./assets/images/ec-flag.svg') no-repeat center;
+  background-size: cover;
+}
+
+.btn {
+  border: transparent;
+  border-radius: 5px;
+  padding: 7.5px 20px;
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  outline: none;
+  background-color: #84bc38;
+  box-shadow: 0 0 5px black;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: inset 0 0 2.5px black;
+}
+
+.btn-files {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5px;
+  background-color: #278ade;
+}
+
+.btn-files svg {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+.btn-save {
+  padding: 15px 20px;
+  border-radius: 2.5px;
+}
+
+.btn-warning {
+  background-color: #bb3f36;
+}
+
+.error-message,
+.empty-badges {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.error-message {
+  color: #bb3f36;
+}
+
+.empty-badges {
+  margin-top: 20px;
+  text-align: center;
+}

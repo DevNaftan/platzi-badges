@@ -1,0 +1,23 @@
+.Navbar {
+  display: flex;
+  height: 57px;
+  border-top: 0.1rem solid #37424b;
+  border-bottom: 0.1rem solid #37424b;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #1c3643;
+}
+
+.Navbar__logo {
+  margin-right: 10px;
+}
+
+.Navbar__title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #818b91;
+}
+
+.Navbar__title strong {
+  color: white;
+}

@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1024px) {
+  .BadgeNewEdit__container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .BadgeNewEdit .Hero--Badges .Hero__container {
+    grid-template: 1fr / repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,39 @@
+.FilterBar {
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 3px;
+  position: relative;
+  align-items: center;
+  background-color: #278ade;
+}
+
+.FilterBar svg {
+  margin-left: 10px;
+  position: absolute;
+  font-size: 1.6rem;
+  opacity: 0.5;
+}
+
+.FilterBar__container {
+  display: grid;
+  grid-template-columns: 1fr 75px;
+  width: 100%;
+  align-items: center;
+}
+
+.FilterBar__container input {
+  margin: 2px;
+  border: none;
+  border-radius: 2.5px 0 0 2.5px;
+  padding: 7.5px 10px 7.5px 32.5px;
+  font-size: 1.4rem;
+  outline: none;
+}
+
+.FilterBar__container span {
+  justify-self: center;
+  font-size: 1.5rem;
+  color: white;
+  cursor: default;
+}

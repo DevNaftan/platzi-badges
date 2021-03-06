@@ -1,0 +1,47 @@
+.Badge {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  box-shadow: 0 0 5px -1px black;
+  overflow: hidden;
+}
+
+.Badge__header {
+  display: flex;
+  padding: 10px 10px 0;
+  border-radius: 5px 5px 0 0;
+  justify-content: center;
+  background-color: #181920;
+}
+
+.Badge__user {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Badge .user-sn--Badge {
+  justify-content: center;
+}
+
+.user-name strong {
+  display: block;
+}
+
+.Badge__description {
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f2f4;
+}
+
+.Badge__footer {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #b8df64;
+}

@@ -1,0 +1,18 @@
+.DeleteBadgeModal {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7.5px;
+  text-align: center;
+}
+
+.DeleteBadgeModal h1 {
+  font-size: 2.6rem;
+}
+
+.DeleteBadgeModal p {
+  font-size: 1.6rem;
+}
+
+.DeleteBadgeModal__controls button {
+  margin: 20px 20px 0;
+}

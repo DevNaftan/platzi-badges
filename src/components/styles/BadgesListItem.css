@@ -1,0 +1,23 @@
+.BadgesList .user-img--BadgesListItem {
+  width: 65px;
+}
+
+.BadgesListItem__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7.5px;
+}
+
+.BadgesList .user-name--BadgesListItem {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.BadgesList .tw-user--BadgesListItem {
+  font-size: 1.3rem;
+}
+
+.BadgesList .user-info--BadgesListItem {
+  padding: 0;
+  font-size: 1.4rem;
+}

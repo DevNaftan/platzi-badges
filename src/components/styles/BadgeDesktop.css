@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1024px) {
+  .Badge__user {
+    flex-direction: row;
+  }
+
+  .user-img {
+    width: 100px;
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+
+  .user-name {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+}
